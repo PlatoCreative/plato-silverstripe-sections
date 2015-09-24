@@ -1,0 +1,24 @@
+{
+  "name": "plato-creative/plato-silverstripe-sections",
+  "description": "Plato's Sections module for the base installer",
+  "type": "silverstripe-module",
+  "homepage": "https://github.com/PlatoCreative/plato-silverstripe-sections",
+  "keywords": ["silverstripe", "section", "plato"],
+  "authors": [
+    {
+      "name": "Plato Creative",
+      "email": "web@platocreative.co.nz"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/PlatoCreative/plato-silverstripe-sections/issues"
+  },
+  "require": {
+    "silverstripe/framework": "3.1.*",
+    "silverstripe/cms": "3.1.*",
+    "silverstripe-australia/gridfieldextensions": "*",
+  },
+  "extra": {
+    "installer-name": "plato-silverstripe-sections"
+  }
+}

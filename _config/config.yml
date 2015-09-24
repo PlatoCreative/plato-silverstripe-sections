@@ -1,0 +1,9 @@
+---
+Name: plato-silverstripe-sections
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+Page:
+  extensions:
+    - SectionPageExtension
