@@ -14,8 +14,8 @@
     "issues": "https://github.com/PlatoCreative/plato-silverstripe-sections/issues"
   },
   "require": {
-    "silverstripe/framework": "3.1.*",
-    "silverstripe/cms": "3.1.*",
+    "silverstripe/framework": "3.2.*",
+    "silverstripe/cms": "3.2.*",
     "silverstripe-australia/gridfieldextensions": "*",
   },
   "extra": {
