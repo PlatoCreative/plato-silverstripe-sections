@@ -1,8 +1,8 @@
 <% if Image %>
     <img class="image" data-interchange="
-        [{$Image.CroppedImage(400, 400).URL}, (small)],
-        [{$Image.CroppedImage(500, 500).URL}, (medium)],
-        [{$Image.CroppedImage(600, 600).URL}, (large)],
+        [{$Image.Fill(400, 400).Link}, small],
+        [{$Image.Fill(500, 500).Link}, medium],
+        [{$Image.Fill(600, 600).Link}, large],
         " />
 <% end_if %>
 <% if Title %>
