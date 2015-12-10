@@ -16,7 +16,7 @@
   "require": {
     "silverstripe/framework": "3.2.*",
     "silverstripe/cms": "3.2.*",
-    "silverstripe-australia/gridfieldextensions": "*",
+    "silverstripe-australia/gridfieldextensions": "1.3.0",
   },
   "extra": {
     "installer-name": "plato-silverstripe-sections"
