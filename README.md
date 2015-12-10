@@ -3,7 +3,6 @@ Plato's Sections module for the base installer. Please see requirements before i
 
 ### Requirements
 + SilverStripe 3.1.*
-+ Foundation 5 (html/css framework)
 
 ### Installation
 ```json
