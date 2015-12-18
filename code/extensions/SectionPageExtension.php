@@ -7,11 +7,11 @@
 class SectionPageExtension extends DataExtension
 {
     /**
-	 * @var array
-	 */
+     * @var array
+     */
     private static $has_many = array(
- 		'Sections' => 'Section'
- 	);
+        'Sections' => 'Section'
+    );
 
     /**
      * @return FieldList
@@ -28,12 +28,12 @@ class SectionPageExtension extends DataExtension
             }
 
             $SectionGridConfig = GridFieldConfig_RelationEditor::create()
-    			->removeComponentsByType('GridFieldAddNewButton')
-    			->addComponent(new GridFieldAddNewMultiClass())
+                ->removeComponentsByType('GridFieldAddNewButton')
+                ->addComponent(new GridFieldAddNewMultiClass())
                 ->addComponent(new GridFieldOrderableRows('Sort'));
 
-    		$SectionGridConfig->getComponentByType('GridFieldAddNewMultiClass')
-    			->setClasses($SectionSubClasses);
+            $SectionGridConfig->getComponentByType('GridFieldAddNewMultiClass')
+                ->setClasses($SectionSubClasses);
 
             $fields->addFieldToTab(
                 'Root.Sections',
