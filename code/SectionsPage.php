@@ -9,7 +9,8 @@ class SectionsPage extends Page
 
 class SectionsPage_Controller extends Page_Controller
 {
-	public function init(){
-		parent::init();
-	}
+    public function init()
+    {
+        parent::init();
+    }
 }

@@ -1,6 +1,7 @@
 <?php
-class ContentSection extends Section {
-	private static $db = array(
+class ContentSection extends Section
+{
+    private static $db = array(
         'Content' => 'HTMLText'
     );
 
@@ -8,11 +9,12 @@ class ContentSection extends Section {
         'Image' => 'Image'
     );
 
-	public function getCMSFields() {
-		$fields = parent::getCMSFields();
+    public function getCMSFields()
+    {
+        $fields = parent::getCMSFields();
         $fields->addFieldsToTab("Root.Main", array(
             HTMLEditorField::create('Content')
         ));
-		return $fields;
-	}
+        return $fields;
+    }
 }
